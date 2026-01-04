@@ -74,8 +74,8 @@ h2{
 }
 
 .content1 img {
-  width: 500px;
-  height: 250px;
+  max-width: 100%;
+  height: auto;
   border-radius: 10px;
     display: block;
     margin: 20px auto;
@@ -101,9 +101,10 @@ h2{
   border-radius: 10px;
 }
 .grid img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   border-radius: 8px;
-
+  transition: 0.5s;
   height: 250px;
   border-radius: 10px;
     display: block;
@@ -240,3 +241,14 @@ nav a:hover {
 .form button:hover {
   background: #162447;
 }
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  body {
+    font-size: 16px;
+  }
+}
+
