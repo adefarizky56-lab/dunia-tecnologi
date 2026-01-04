@@ -75,7 +75,7 @@ h2{
 
 .content1 img {
   max-width: 100%;
-  width: 100%;
+  width: 500px;
   height: auto;
   border-radius: 10px;
     display: block;
@@ -253,6 +253,7 @@ nav a:hover {
     font-size: 16px;
   }
 }
+
 
 
 
